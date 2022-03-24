@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/top_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+        <!--        中间的各个选项-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!--            四列-->
+            <!--            教师事务-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C70E5C"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="教师事务"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ehall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·办事大厅"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/teacher_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·教师邮箱@"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/benkeshengjiaowu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·本科生教务"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/yanjiushengjiaowu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·研究生教务"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/blackboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·Blackboard"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/oaxitong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·OA系统"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/kexuejishu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·科学技术"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/shehuikexue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·社会科学"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/renliziyuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·人力资源"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/shiyanshebei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·实验设备"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/shebeigongxiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·设备共享"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/caiwufuwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·财务服务"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/zhaobiaocaigou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·招标采购"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/more1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:text="∨"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <!--            学生事务-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E64F80"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="学生事务"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/uooc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·UOOC课程"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/xuesheng_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·学生邮箱@"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/benkeshengxuanke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·本科生选课"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/yanjiushengxuanke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·研究生选课"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/xueshenggongzuo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·学生工作"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/shiwuzhongxin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·事务中心"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/gongyuguanli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·公寓管理"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/xinlizixun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·心理咨询"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/jiaoxuezafei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·缴学杂费"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/kanyankaobo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·考研考博"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/jiuyazhidao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·就业指导"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/xueshenghuodong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·学生活动"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/yanjiushenghui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·研究生会"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/more2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:text="∨"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <!--            荔园生活-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C70E5C"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="荔园生活"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/shendayigong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·深大义工"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/xuekejingsai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·学科竞赛"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/chuangyechuangxin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·创新创业"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/gonghuihuodong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·工会活动"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/shendaxiaobao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·深大校报"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/wangshangdianshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·网上电视"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/guangbodiantai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·广播电台"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/shipinxiaoyuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·视频校园"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tiyuchangguan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·体育场馆"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/houqinfuwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·后勤服务"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/guojijiaoliu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·国际交流"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/zongyiyuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·总 医 院"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/huananyiyuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·华南医院"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/more3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:text="∨"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <!--            网上服务-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E64F80"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="网上服务"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tushuguan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·图 书 馆"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/xiaoyuanwangluo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·校园网络"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/zizhufuwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·自助服务"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/xiaowuxinxiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·校务信箱"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/duanxinpingtai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·短信平台"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/huiyishishenqing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·会议室申请"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/xiaoshiguanyuyue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·校史馆预约"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/xiaoyuanka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·校 园 卡"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/guzhangbaoxiu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·故障报修"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/shiwuzhaoling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·失物招领"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/jijinhui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·基 金 会"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/shendajinianpin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·深大纪念品"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/zhonghangwangyin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:text="·中行网银"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/more4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:text="∨"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bottom_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+</ScrollView>
